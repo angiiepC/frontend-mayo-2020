@@ -1,5 +1,6 @@
 <html>
     <head>
+        
         <title>Mi Articulo de Blog</title>
         <style>
             /* 
@@ -18,11 +19,16 @@
            
             .caja {
             text-align:center;
-            background: orange;
-            font-family: system-ui;
-            color: #ffff;
+            background: white;
+            font-family: 'Montserrat', sans-serif;
+            color:grey;
             width: 1000px;
             margin: 0 auto;
+            --webkit-box-shadow: 0px 0px 13px 5px rgba(0,0,0,0.18);
+            -moz-box-shadow: 0px 0px 13px 5px rgba(0,0,0,0.18);
+            box-shadow: 0px 0px 13px 5px rgba(0,0,0,0.18);
+            border: 1px #e3e3e3 solid;
+            border-radius: 25px;
           }
 
 article {
@@ -39,22 +45,24 @@ aside {
 
             /* contenidoy tipografias */
 h1 {
-            font-size: 70px;
+            font-size: 50px;
             font-weight: bold;
-            text-shadow: 3px 0px 3px rgba(150, 150, 150, 1);
             text-align: center;
             letter-spacing: 5px;
-            padding: 30px 20px 0px 20px;
+            padding: 20px;
+            background: powderblue;
+            color: white;
+            text-transform:uppercase;
             }
 
 h3 {
-    color:slategray;
-    background-color: snow;
+    color:rgb(255, 255, 255);
+    background-color:powderblue;
     text-transform:uppercase;
     letter-spacing: 5px;
 }
 h2 {
-    color:crimson;
+    color:rgb(53, 53, 53);
     text-transform:uppercase;
     letter-spacing: 5px;
 }
@@ -64,7 +72,7 @@ p {
 /* ----fin contenidoy tipografias --- */
 /* ---- texto links --- */
 .a{
-    color: white;
+    color: grey;
     line-height: 30px;
     text-align: left;
 }
@@ -75,7 +83,7 @@ p {
  .footer {
                 display: inline-flex;
                 text-align:center;
-                background: #333;
+                background: #e3e3e3;
                 padding: 40px;
                 }
 .footer .links {
@@ -102,6 +110,7 @@ p {
 
 
         </style>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;600&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="caja">
