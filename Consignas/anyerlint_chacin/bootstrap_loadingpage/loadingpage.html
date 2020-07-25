@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html class="no-js" lang="es">
+  <head>
+
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link 
+    rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+    crossorigin="anonymous">
+  </head>
+      <style>
+            body {
+                background-color: #E0E0E0;
+                background: #ffeb3b;
+                
+            }
+            .text-center {
+                text-align: center
+            }
+            .mt-100 {
+                margin-top: 20%
+            }
+            .progress {
+                background-color: #e5e9eb;
+                height: 0.45em;
+                position: relative;
+                margin-left: 10px;
+                margin-right: 10px
+            }
+            .progress-bar {
+                -webkit-animation-duration: 6s;
+                -webkit-animation-iteration-count:infinite;
+                -webkit-animation-name: width;
+                background:aquamarine);
+                background-size: 24em 0.25em;
+                height: 100%;
+                position: relative
+            }
+            .progress-shadow {
+                background-image: linear-gradient(to bottom, #eaecee, transparent);
+                height: 4em;
+                position: absolute;
+                top: 100%;
+                transform: skew(45deg);
+                transform-origin: 0 0;
+                width: 100%
+            }
+
+            @keyframes width {
+                0%,
+                100% {
+                    transition-timing-function: cubic-bezier(1, 0, 0.65, 0.85)
+                }
+
+                0% {
+                    width: 0
+                }
+
+                100% {
+                    width: 100%
+                }
+            }
+
+            @-webkit-keyframes width {
+
+                0%,
+                100% {
+                    transition-timing-function: cubic-bezier(1, 0, 0.65, 0.85)
+                }
+
+                0% {
+                    width: 0
+                }
+
+                100% {
+                    width: 100%
+                }
+            }
+
+
+    </style>
+  <body>
+    <main>
+      <div class="container-fluid">
+        
+     <header>
+          
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Abrir modal</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+          </nav>
+        
+    </header>
+
+    <section>
+        <div class="row d-flex justify-content-center mt-100">
+            <div class="col-md-6">
+                <h2 class="text-center text-secondary ">Loading...</h2>
+                <br>
+                <div class="progress">
+                    <div class="progress-bar">
+                        <div class="progress-shadow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+</script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
